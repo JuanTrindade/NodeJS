@@ -1,0 +1,24 @@
+{
+  "name": "BCK",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "mongoose": "^5.9.7",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-env": "nodemon src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
